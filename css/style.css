@@ -1,5 +1,72 @@
 h1 {
   text-align: center;
+  color: #245c53;
+  font-size: 40px;
+}
+
+body {
+  background-color: #eaf1ee;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px auto;
+
+  display: block;
+  border: 1px solid #d0e2d0;
+  background-color: #e7f6f1;
+}
+
+select {
+  display: block;
+  margin: 5px auto;
+  padding: 10px;
+  background-color: #d0e2d0;
+  width: 90%;
+  border: 1px solid #d0e2d0;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #245c53;
+}
+button {
+  display: block;
+  margin: 10px auto;
+  font-size: 14px;
+  padding: 10px;
+  background-color: #d0e2d0;
+  border: 1px solid #d8f6eb;
+  border-radius: 10px;
+  color: #245c53;
+  transition: all 200ms ease-in-out;
+  font-weight: bold;
+}
+button:hover {
+  background: #e7f6f1;
+  border-color: #d0e2d0;
+  cursor: pointer;
+}
+.cities {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 40px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 28px;
+  margin: 10px 0 5px 0;
+}
+.date {
+  margin: 5px 0 5px 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+.time {
+  font-size: 34px;
+  margin: 10px 0 5px 0;
+}
+.time small {
+  font-size: 17px;
+  font-weight: 200;
 }
 
 footer {
