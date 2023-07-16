@@ -33,6 +33,9 @@ function changeTime() {
 
 function showSelectedCity(event) {
   let cityTimezoneElement = event.target.value;
+  if (cityTimezoneElement === "current") {
+    cityTimezoneElement = moment.tz.guess();
+  }
   let cityName = cityTimezoneElement.replace("_", " ").split("/")[1];
   let cityTimeElement = moment().tz(cityTimezoneElement);
   let cityElement = document.querySelector("#selected-city");

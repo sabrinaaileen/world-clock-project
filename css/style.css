@@ -29,28 +29,15 @@ select {
   font-size: 18px;
   color: #245c53;
 }
-button {
-  display: block;
-  margin: 10px auto;
-  font-size: 14px;
-  padding: 10px;
-  background-color: #d0e2d0;
-  border: 1px solid #d8f6eb;
-  border-radius: 10px;
-  color: #245c53;
-  transition: all 200ms ease-in-out;
-  font-weight: bold;
-}
-button:hover {
-  background: #e7f6f1;
-  border-color: #d0e2d0;
-  cursor: pointer;
-}
+
 .cities {
   display: flex;
   justify-content: space-between;
   margin: 0px 40px;
   margin-bottom: 20px;
+}
+.cities:first-child {
+  margin-top: 20px;
 }
 h2 {
   font-size: 28px;
