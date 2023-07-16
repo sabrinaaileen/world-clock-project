@@ -40,6 +40,7 @@ function showSelectedCity(event) {
   let cityTimeElement = moment().tz(cityTimezoneElement);
   let cityElement = document.querySelector("#selected-city");
   cityElement.innerHTML = `
+  <button><a href="/" class="reset_link">Reset</a></button>
 <div class="cities">
           <div>
             <h2>${cityName}</h2>
@@ -51,6 +52,7 @@ function showSelectedCity(event) {
             )}</h3>
           </div>
         </div>
+        
 `;
 }
 
